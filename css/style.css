@@ -1,11 +1,80 @@
 @import url(reset.css);
 
 
-.wrapper {
+.container-clearfix1 {
     width: 1200px;
     margin: 0 auto ;
+    padding: 10 ;
 }
-.child {
-    width: 300px;
-    display: inline-block;
+.blok1 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: green;
+    outline: 2px solid black;
+}
+.blok2 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: green;
+    outline: 2px solid black;
+}
+.blok3 {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background: green;
+    outline: 2px solid black;
+}
+
+
+
+.container-clearfix2 {
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.blok4 {
+    width: 800px;
+    height: 200px;
+    float: left;
+    background: goldenrod;
+    outline: 2px solid black;
+}
+.blok5 {
+    width: 800px;
+    height: 200px;
+    float: left;
+    background: goldenrod;
+    outline: 2px solid black;
+}
+
+.blok6 {
+    width: 400px;
+    height: 133px;
+    float: left;
+    background: aqua;
+    outline: 2px solid black;
+}
+
+.blok7 {
+    width: 400px;
+    height: 133px;
+    float: left;
+    background: aqua;
+    outline: 2px solid black;
+}
+
+.blok8 {
+    width: 400px;
+    height: 133px;
+    float: left;
+    background: aqua;
+    outline: 2px solid black;
+}
+
+.clr {
+    clear: left;
 }
