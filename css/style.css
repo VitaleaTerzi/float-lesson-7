@@ -4,7 +4,6 @@
 .container-clearfix1 {
     width: 1200px;
     margin: 0 auto ;
-    padding: 10 ;
 }
 .blok1 {
     width: 400px;
@@ -33,8 +32,10 @@
 .container-clearfix2 {
     width: 1200px;
     margin: 0 auto;
-    
-}
+    }
+    .clearfix {
+        clear: left;
+    }
 
 .blok4 {
     width: 800px;
@@ -49,6 +50,14 @@
     float: left;
     background: goldenrod;
     outline: 2px solid black;
+}
+
+.container-clearfix3 {
+    width: 400px;
+    margin: 0 auto;
+}
+.clearfix {
+    clear: left;
 }
 
 .blok6 {
